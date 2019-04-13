@@ -1,0 +1,32 @@
+{
+  "name": "typescript-protractor-selenium",
+  "version": "1.0.0",
+  "description": "Sauce Labs and Selenium demo using Protractor framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor protractor/jsfiles/conf.js",
+    "pretest": "tsc",
+    "protractor": "./node_modules/protractor/built/cli.js",
+    "webdriver-update": "./node_modules/.bin/webdriver-manager update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/utknl/typescript-protractor-selenium.git"
+  },
+  "author": "utku unal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/utknl/typescript-protractor-selenium/issues"
+  },
+  "homepage": "https://github.com/utknl/typescript-protractor-selenium#readme",
+  "dependencies": {
+    "jasmine": "^3.3.1",
+    "jasmine-data-provider": "^2.2.0",
+    "protractor": "^5.4.2",
+    "typescript": "^3.2.4",
+    "ts-node": "^8.0.2",
+    "@types/jasmine": "^3.3.8",
+    "@types/jasminewd2": "^2.0.6",
+    "@types/node": "^10.12.19"
+  }
+}
