@@ -43,8 +43,6 @@ describe("Number Generator", async () => {
             );
         });
 
-
     });
-
 
 });

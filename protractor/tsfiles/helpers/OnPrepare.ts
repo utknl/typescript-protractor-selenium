@@ -9,19 +9,6 @@ export class OnPrepare {
         //wait for angular or not
         await browser.waitForAngularEnabled(false);
 
-        // //jasmine-reporter
-        // let specReporter = new SpecReporter({
-        //     spec: {displayStacktrace: true}
-        // });
-        //
-        // //jasmine-xml-reporter
-        // jasmine.getEnv().addReporter(specReporter);
-        // jasmine.getEnv().addReporter(new JasmineReporter.JUnitXmlReporter({
-        //     consolidateAll: true,
-        //     savePath: testResultsPath,
-        //     filePrefix: 'xmlresults'
-        // }));
-
     }
 
 }
