@@ -11,7 +11,7 @@ I will add Sauce Labs implementation later.. (I hope)
 ## How to Use 
 ```
 1. Clone the project and go to it's folder
-2. [npm] install
-3. [npm] webdriver-update
-4. [npm] run test
+2. npm install
+3. npm webdriver-update
+4. npm run test
 ```
