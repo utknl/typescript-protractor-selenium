@@ -16,7 +16,7 @@ I will add Sauce Labs implementation later.. (I hope)
 
 2. npm install
 
-3. npm webdriver-update
+3. npm run webdriver-update
 
 4. npm run test
 ```
@@ -72,6 +72,6 @@ Since protractor only understands javascript, always give the path of the conver
 
 8. add your tests
 
-9. `npm webdriver-update` for your first run
+9. `npm run webdriver-update` for your first run
 
 10. `npm run test` and have fun
