@@ -43,7 +43,7 @@ If you want to create the whole structure from scratch:
    "@types/node": "^10.12.19"
 ```
 
-4. type `npm instal` on terminal in order to download these dependencies
+4. type `npm install` on terminal in order to download these dependencies
 
 5. type `tsc --init` on terminal in order to create `tsconfig.json`
 ```text
