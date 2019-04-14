@@ -70,4 +70,8 @@ Since protractor only understands javascript, always give the path of the conver
       
    inspect my package.json for an example.
 
-8. add your tests and have fun
+8. add your tests
+
+9. `npm webdriver-update` for your first run
+
+10. `npm run test` and have fun
