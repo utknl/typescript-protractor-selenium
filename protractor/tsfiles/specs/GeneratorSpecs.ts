@@ -35,8 +35,8 @@ describe("Number Generator", async () => {
 
         let number = await actions.waitAndGetText(generator.group1);
         console.log("\n Number is = ", number);
-        expect(parseInt(number)).toBeGreaterThanOrEqual(0);
-        expect(parseInt(number)).toBeLessThanOrEqual(10);
+        await expect(parseInt(number)).toBeGreaterThanOrEqual(0);
+        await expect(parseInt(number)).toBeLessThanOrEqual(10);
     });
 
     it('should generate numbers in stated quantities between selected limits in a group', async () => {
@@ -83,7 +83,7 @@ describe("Number Generator", async () => {
             console.log("\n Unique Number is = ", x)
         );
 
-        expect(uniqueList.size).toEqual(8)
+        await expect(uniqueList.size).toEqual(8)
     });
 
     it('should generate numbers in stated quantities for selected groups', async () => {
@@ -93,27 +93,27 @@ describe("Number Generator", async () => {
 
         let group1 = await actions.waitAndGetText(generator.group1);
         console.log("\n Group 1 : \n", group1);
-        expect(group1.split("\n").length).toEqual(6);
+        await expect(group1.split("\n").length).toEqual(6);
 
         let group2 = await actions.waitAndGetText(generator.group2);
         console.log("\n Group 2 : \n", group2);
-        expect(group2.split("\n").length).toEqual(6);
+        await expect(group2.split("\n").length).toEqual(6);
 
         let group3 = await actions.waitAndGetText(generator.group3);
         console.log("\n Group 3 : \n", group3);
-        expect(group3.split("\n").length).toEqual(6);
+        await expect(group3.split("\n").length).toEqual(6);
 
         let group4 = await actions.waitAndGetText(generator.group4);
         console.log("\n Group 4 : \n", group4);
-        expect(group4.split("\n").length).toEqual(6);
+        await expect(group4.split("\n").length).toEqual(6);
 
         let group5 = await actions.waitAndGetText(generator.group5);
         console.log("\n Group 5 : \n", group5);
-        expect(group5.split("\n").length).toEqual(6);
+        await expect(group5.split("\n").length).toEqual(6);
 
         let group6 = await actions.waitAndGetText(generator.group6);
         console.log("\n Group 6 : \n", group6);
-        expect(group6.split("\n").length).toEqual(6);
+        await expect(group6.split("\n").length).toEqual(6);
 
         let numbersToArrayList = new Array<number>();
         group1.split("\n").forEach(x => numbersToArrayList.push(parseInt(x)));
@@ -122,7 +122,7 @@ describe("Number Generator", async () => {
         group4.split("\n").forEach(x => numbersToArrayList.push(parseInt(x)));
         group5.split("\n").forEach(x => numbersToArrayList.push(parseInt(x)));
         group6.split("\n").forEach(x => numbersToArrayList.push(parseInt(x)));
-        expect(numbersToArrayList.length).toEqual(36);
+        await expect(numbersToArrayList.length).toEqual(36);
     });
 
 });
