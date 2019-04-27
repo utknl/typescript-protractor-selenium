@@ -49,12 +49,12 @@ export class GeneratorPo {
         return this.quantityDropdown.element(by.xpath("//*[@id='i']//option[@value='" + number + "']"));
     };
 
-    isUnique(val: boolean) {
-        if (val) {
-            return this.uniqueDropdown.element(by.xpath("//*[@id='u']//option[@value='1']"));
-        } else
-            return this.uniqueDropdown.element(by.xpath("//*[@id='u']//option[@value='0']"));
-    };
+    // isUnique(val: boolean) {
+    //     if (val) {
+    //         return this.uniqueDropdown.element(by.xpath("//*[@id='u']//option[@value='1']"));
+    //     } else
+    //         return this.uniqueDropdown.element(by.xpath("//*[@id='u']//option[@value='0']"));
+    // };
 
     setGroups(number) {
         return this.groupsDropdown.element(by.xpath("//*[@id='groups']//option[@value='" + number + "']"));

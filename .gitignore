@@ -1,5 +1,5 @@
 /node_modules
-.idea/
+.idea
 /protractor/jsfiles
 /debug.log
 /package-lock.json
