@@ -1,7 +1,7 @@
 # typescript-protractor-selenium
 Sauce Labs and Selenium demo using Protractor framework.
 
-I will add Sauce Labs implementation later.. (I hope)
+Sauce Labs implementation will be added
 
 ## Prerequisites
 ```
@@ -43,9 +43,9 @@ If you want to create the whole structure from scratch:
    "@types/node": "^10.12.19"
 ```
 
-4. type `npm install` on terminal in order to download these dependencies
+4. type `npm install` on terminal to download these dependencies
 
-5. type `tsc --init` on terminal in order to create `tsconfig.json`
+5. type `tsc --init` on terminal to create `tsconfig.json`
 ```text
    This is required in order to transform the project to typescript.
    In tsconfig.json file, we define how it should convert ts files to js files.
