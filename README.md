@@ -12,13 +12,13 @@ Sauce Labs implementation will be added
 
 ## How to Use 
 ```text
-1. clone the project and go to it's folder
+1. clone the project and go to it's folder on terminal
 
-2. npm install
+2. type `npm install`
 
-3. npm run webdriver-update
+3. type `npm run webdriver-update`
 
-4. npm run test
+4. type `npm run test`
 ```
 
 ## How to Create
