@@ -5,9 +5,9 @@ Sauce Labs implementation will be added
 
 ## Prerequisites
 ```
-1. Npm
+1. TypeScript
 
-2. TypeScript
+2. Npm
 ```
 
 ## How to Use 
