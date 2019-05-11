@@ -5,9 +5,7 @@ Sauce Labs implementation will be added
 
 ## Prerequisites
 ```
-1. TypeScript
-
-2. Npm
+1. npm
 ```
 
 ## How to Use 
@@ -24,9 +22,9 @@ Sauce Labs implementation will be added
 ## How to Create
 If you want to create the whole structure from scratch:
 
-1. create a directory
+1. download typescript
 
-2. on directory path, type `npm init` on terminal
+2. create a directory, on directory path, type `npm init` on terminal
 ```text
    This will create package.json file in your directory.
 ```
