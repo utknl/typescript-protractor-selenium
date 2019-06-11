@@ -1,11 +1,10 @@
 # typescript-protractor-selenium
 Sauce Labs and Selenium demo using Protractor framework.
 
-Sauce Labs implementation will be added
-
 ## Prerequisites
 ```
 1. npm
+2. sauce labs account
 ```
 
 ## How to Use 
@@ -14,7 +13,7 @@ Sauce Labs implementation will be added
 
 2. type `npm install`
 
-3. type `npm run webdriver-update`
+3. type your sauce labs username and access key on conf.ts
 
 4. type `npm run test`
 
